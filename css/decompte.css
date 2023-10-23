@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 1.2em;
+    text-align: center;
+}
+p{
+    border: 1px solid rgb(207, 207, 207);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 2.5em;
+    font-weight: 200;
+    text-align: center;
+    line-height: 100px;
+}
+#horloge{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 500px;
+}
+#horloge div{
+    margin: 15px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+}

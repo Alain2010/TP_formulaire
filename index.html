@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulaire et autres</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div>
+            <label for="password">Définissez votre mot de passe </label>
+            <input type="password" id="password" name="password" required>
+            <p>
+                <strong>Le mot de passe doit contenir au moins une lettre
+                    Maj (A-Z), une lettre miniscule (a-z), un chiffre (0-9) et un
+                    caractère spécial (@/\_-&)
+                </strong>
+                <span></span><span></span><span></span><span></span>
+            </p>
+        </div>
+
+        <div>
+            <label for="confirmation">Confirmer votre mot de passe</label>
+            <input type="password" id="confirmation" name="confirmation" required>
+            <strong id="error_msg" class="erreur"></strong>
+        </div>
+
+        <div>
+
+            <button type="submit" id="soumettre">S'enregistrer</button>
+
+        </div>
+        <a href="page.html" id="next_step">
+            Passer au TP suivant >
+        </a>
+
+    </div>
+
+</body>
+
+</html>

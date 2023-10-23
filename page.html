@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page.css">
+    <script src="js/compteur.js" defer></script>
+    <title>Jeu du juste prix</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="contenu">
+            <img src="Media/image/Capture d'écran 2023-09-30 230516.png" alt="">
+            <label for="price">Trouver le juste prix, vous avez droit à 5 tentatives </label>
+            <input type="number" id="price" name="price" required>
+            <span class="indice">
+                Indice : le prix se situe entre 0 et 10€, à vérifier dans la console
+            </span>
+
+            <span id="un"></span><span id="deux"></span><span id="trois"></span><span id="quatre"></span><span
+                id="cinq"></span>
+        </div>
+
+        <div>
+            <p id="message">
+
+            </p>
+            <span id="test"></span>
+            <button type="submit" id="soumettre">Valider</button>
+
+        </div>
+        <a href="decompte.html" id="next_step">
+            Passer au TP suivant >
+        </a>
+
+    </div>
+
+</body>
+
+</html>
